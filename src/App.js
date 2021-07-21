@@ -42,7 +42,19 @@ export default function App() {
       <div>
         <ul>
           {recommend.map((item) => {
-            return <li style={{ listStyleType: "none" }}>{item}</li>;
+            return (
+              <li
+                id="books"
+                style={{
+                  listStyleType: "none",
+                  fontSize: "2rem",
+                  fontFamily: "cursive",
+                  padding: "1rem"
+                }}
+              >
+                {item}
+              </li>
+            );
           })}
         </ul>
       </div>
