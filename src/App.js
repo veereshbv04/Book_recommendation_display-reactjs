@@ -4,7 +4,7 @@ import "./styles.css";
 var genre = ["Novels", "JavaScript", "Fiction"];
 
 var books = {
-  Novels: ["Revolution 2020", "The Girls in the Window"],
+  Novels: ["Revolution 2020", "The Girl in the Window"],
   JavaScript: ["Eloquent JavaScript"],
   Fiction: ["Harry Potter"]
 };
@@ -20,7 +20,10 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Book Recommendation</h1>
+      <div id="books">
+        <h1>Book Recommendation</h1>
+      </div>
+
       <h2 style={{ fontSize: "medium", fontStyle: "1rem" }}>
         Select a genre to,so that I can recommend Books{" "}
       </h2>
@@ -44,12 +47,10 @@ export default function App() {
           {recommend.map((item) => {
             return (
               <li
-                id="books"
                 style={{
                   listStyleType: "none",
-                  fontSize: "2rem",
                   fontFamily: "cursive",
-                  padding: "1rem"
+                  fontSize: "2rem"
                 }}
               >
                 {item}

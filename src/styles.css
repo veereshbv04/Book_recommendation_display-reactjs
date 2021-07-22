@@ -23,7 +23,16 @@ button {
   cursor: pointer;
 }
 
+li {
+  background-color: yellow;
+  width: "50%";
+  width: "30%";
+  margin: 2rem 10rem;
+  border-style: solid;
+  border-radius: 2rem;
+}
+
 #books {
-  font-size: "2rem";
-  background-color: "blie";
+  width: "30%";
+  margin: 2rem 10rem;
 }
