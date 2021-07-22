@@ -26,13 +26,18 @@ button {
 li {
   background-color: yellow;
   width: "50%";
-  width: "30%";
-  margin: 2rem 10rem;
+  /* width: "30%"; */
+  margin: 2rem 20rem;
   border-style: solid;
   border-radius: 2rem;
+  min-width: 30%;
 }
 
 #books {
-  width: "30%";
-  margin: 2rem 10rem;
+  width: "50%";
+  margin: 2rem 15rem;
+  text-align: center;
+}
+footer {
+  position: bottom;
 }

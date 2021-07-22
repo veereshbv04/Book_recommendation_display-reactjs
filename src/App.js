@@ -4,9 +4,14 @@ import "./styles.css";
 var genre = ["Novels", "JavaScript", "Fiction"];
 
 var books = {
-  Novels: ["Revolution 2020", "The Girl in the Window"],
-  JavaScript: ["Eloquent JavaScript"],
-  Fiction: ["Harry Potter"]
+  Novels: [
+    "Revolution 2020",
+    "The Girl in the Window",
+    "The Glass Hotel",
+    "Life is What you make it"
+  ],
+  JavaScript: ["Eloquent JavaScript", "You don't know JS", "Clean Code"],
+  Fiction: ["Harry Potter", "The Lord of the Rings Trilogy"]
 };
 
 export default function App() {
