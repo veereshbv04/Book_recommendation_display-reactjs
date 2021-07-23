@@ -55,7 +55,8 @@ export default function App() {
                 style={{
                   listStyleType: "none",
                   fontFamily: "cursive",
-                  fontSize: "2rem"
+                  fontSize: "2rem",
+                  alignItems: "center"
                 }}
               >
                 {item}

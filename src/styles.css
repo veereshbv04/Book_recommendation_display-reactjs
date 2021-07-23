@@ -2,42 +2,60 @@
   font-family: sans-serif;
   text-align: center;
 
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
+  text-align: center;
+  align-content: center;
+  margin: auto;
 }
 
-h1 {
+#books {
   background-color: aqua;
   text-align: center;
-  padding: 2rem;
-  border-radius: 1rem;
+  padding: 2em;
+  border-radius: 1px;
   border-color: blue;
   border-style: solid;
-  border-width: 0.5rem;
+  border-width: 8px;
+  margin: auto;
 }
 
 button {
   background-color: pink;
   padding: "6rem";
   margin: "rem";
-  font-size: 1.5rem;
+  font-size: 1.5px;
   cursor: pointer;
 }
 
 li {
   background-color: yellow;
-  width: "50%";
-  /* width: "30%"; */
-  margin: 2rem 20rem;
   border-style: solid;
   border-radius: 2rem;
-  min-width: 30%;
+  max-width: 100%;
 }
 
-#books {
-  width: "50%";
-  margin: 2rem 15rem;
+@media (min-width: 320px) {
+  body {
+    background-color: pink;
+    font-size: 11px;
+    max-width: 300px;
+    align-content: center;
+    text-align: center;
+  }
+  li {
+    background-color: green;
+    text-align: inherit;
+    align-content: inherit;
+    margin: auto;
+  }
+  #books h1 {
+    background-color: red;
+  }
+}
+
+/* #books {
+  width: "100%";
+  margin: 0 50%;
+
   text-align: center;
-}
-footer {
-  position: bottom;
-}
+} */
