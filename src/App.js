@@ -1,27 +1,27 @@
 import { useState } from "react";
 import "./styles.css";
 
-var genre = ["Novels", "JavaScript", "Fiction"];
+var genre = ["Hiphop", "Classical", "Pop"];
 
 var books = {
-  Novels: [
-    "Revolution 2020 [5/5]",
-    "The Girls in the Window [3/5]",
-    "Life is what you make it [4/5]",
-    "Durgastamana [5/5]",
-    "Three Mistakes of my Life [5/5]"
+  Hiphop: [
+    "Eminen (US) [5/5]",
+    "KanyeWest (SEOUL) [3/5]",
+    "Tupac Shakur (US)[4/5]",
+    "Lil Wayne (BRAZIL)[5/5]",
+    "Jay-Z [5/5]"
   ],
-  JavaScript: [
-    "Eloquent JavaScript [5/5]",
-    "You don't know JS [4/5]",
-    "Effective JavaScript [5/5]",
-    "Smater Way to learn JS [4/5]"
+  Classical: [
+    "M S Subbulakshmi(INDIA) [5/5]",
+    "Pandit Bhimsen Joshi (INDIA)[4/5]",
+    "Bade Ghulam Ali Khan (INDIA) [5/5]",
+    "Lata Mangeshkar (INDIA) [4/5]"
   ],
-  Fiction: [
-    "Harry Potter [4/5]",
-    "Brave New world [5/5]",
-    "The White Tiger [5/5]",
-    "The Girl In Room 105 [4/5]"
+  Pop: [
+    "Ariana Grande (US) [4/5]",
+    "Lady Gaga (US) [5/5]",
+    "Beyonce (US) [5/5]",
+    "Taylor Swift(US) [4/5]"
   ]
 };
 
@@ -36,9 +36,9 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Book Recommendation</h1>
+      <h1>Musicians Recommendation</h1>
       <h2 style={{ fontSize: "medium", fontStyle: "1rem" }}>
-        Select a genre to,so that I can recommend Books{" "}
+        Select a genre to,so that I can recommend Musicians{" "}
       </h2>
       <h2>
         {genre.map((item) => {
