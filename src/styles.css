@@ -2,60 +2,23 @@
   font-family: sans-serif;
   text-align: center;
 
-  /* margin-top: 5rem; */
-  text-align: center;
-  align-content: center;
-  margin: auto;
+  margin-top: 5rem;
 }
 
-#books {
+h1 {
   background-color: aqua;
   text-align: center;
-  padding: 2em;
-  border-radius: 1px;
+  padding: 2rem;
+  border-radius: 1rem;
   border-color: blue;
   border-style: solid;
-  border-width: 8px;
-  margin: auto;
+  border-width: 0.5rem;
 }
 
 button {
   background-color: pink;
   padding: "6rem";
   margin: "rem";
-  font-size: 1.5px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
-
-li {
-  background-color: yellow;
-  border-style: solid;
-  border-radius: 2rem;
-  max-width: 100%;
-}
-
-@media (min-width: 320px) {
-  body {
-    background-color: pink;
-    font-size: 11px;
-    max-width: 300px;
-    align-content: center;
-    text-align: center;
-  }
-  li {
-    background-color: green;
-    text-align: inherit;
-    align-content: inherit;
-    margin: auto;
-  }
-  #books h1 {
-    background-color: red;
-  }
-}
-
-/* #books {
-  width: "100%";
-  margin: 0 50%;
-
-  text-align: center;
-} */
