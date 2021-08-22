@@ -3,7 +3,7 @@ import "./styles.css";
 
 var genre = ["Hiphop", "Classical", "Pop"];
 
-var books = {
+var music = {
   Hiphop: [
     "Eminen (US) [5/5]",
     "KanyeWest (SEOUL) [3/5]",
@@ -29,7 +29,7 @@ export default function App() {
   const [recommend, setRecommend] = useState([]);
 
   function onClickHandler(item) {
-    var recommend = books[item];
+    var recommend = music[item];
     setRecommend(recommend);
     console.log(recommend);
   }
